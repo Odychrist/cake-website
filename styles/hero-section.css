@@ -1,0 +1,142 @@
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: var(--spacing-md);
+}
+
+h1 {
+  font-size: var(--text-title);
+  max-width: 700px;
+  text-align: center;
+}
+
+h1 span {
+  color: var(--primary-color);
+}
+
+.hero-section p {
+  font-size: var(--text-primary);
+  text-align: center;
+}
+
+.hero-btns-container {
+  margin-top: var(--spacing-md);
+}
+
+.hero-btns-container a {
+  text-decoration: none;
+  padding: var(--spacing-2xs) var(--spacing-md);
+  font-size: var(--text-primary);
+  font-weight: bold;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-btn);
+  transition: var(--transition);
+}
+
+.primary-btn {
+  background-color: var(--primary-color);
+  color: var(--third-color);
+  margin-right: var(--spacing-sm);
+}
+
+.secondary-btn {
+  background-color: var(--third-color);
+  color: var(--primary-color);
+}
+
+.primary-btn:hover {
+  background-color: var(--secondary-hover);
+}
+
+.secondary-btn:hover {
+  background-color: var(--third-hover);
+}
+
+.hero-imgs-container {
+  min-width: 1200px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.hero-imgs-container img {
+  width: 464px;
+  height: 259px;
+}
+
+.hero-img-3 {
+  width: 546px;
+  height: 305px;
+  margin-top: -200px;
+}
+
+@media (max-width: 748px) {
+  h1 {
+    font-size: var(--text-seventh);
+    width: 400px;
+  }
+
+  .hero-section p {
+    font-size: var(--text-fifth);
+    width: 350px;
+  }
+
+  .hero-btns-container a {
+    display: inline-block;
+    font-size: var(--text-fifth);
+    width: 130px;
+    text-align: center;
+    padding: var(--spacing-xs);
+  }
+
+  .hero-imgs-container {
+    margin-top: var(--spacing-xs);
+    min-width: 0;
+  }
+
+  .hero-imgs-container img {
+    width: 219px;
+    height: 122px;
+  }
+
+  .hero-img-3 {
+    width: 276px;
+    height: 154px;
+    margin-top: -60px;
+  }
+}
+
+@media (min-width: 748px) and (max-width: 1023px) {
+  h1 {
+    font-size: var(--text-secondary);
+  }
+
+  .hero-section p {
+    font-size: var(--text-third);
+    width: 350px;
+    text-align: center;
+  }
+
+  .hero-btns-container a {
+    font-size: var(--text-third);
+    padding: var(--spacing-xs) var(--spacing-2xs);
+  }
+
+  .hero-imgs-container {
+    margin-top: var(--spacing-2xs);
+    min-width: 0;
+  }
+
+  .hero-imgs-container img {
+    width: 278px;
+    height: 155px;
+  }
+
+  .hero-img-3 {
+    width: 314px;
+    height: 175px;
+    margin-top: -70px;
+  }
+}

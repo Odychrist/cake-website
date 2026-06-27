@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Acceuil</title>
+    <link rel="stylesheet" href="./styles/general.css" />
+    <link rel="stylesheet" href="./styles/hero-section.css" />
+    <link rel="stylesheet" href="./styles/testimonial-section.css" />
+    <link rel="stylesheet" href="./styles/call-to-action.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="./index.html">SweetDelice by Amina</a>
+      <button
+        id="btn-menu"
+        aria-label="Ouvrir le menu"
+        aria-expanded="false"
+        aria-controls="main-navigation"
+      >
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <nav>
+        <button
+          id="btn-close"
+          aria-label="Fermer le menu"
+          aria-expanded="false"
+          aria-controls=""
+        >
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <a href="">Accueil</a>
+        <a href="">Produits</a>
+        <a href="">A Propos</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <h1>Where Every <span>Cake</span> Is A <span>Celebration</span></h1>
+        <p>
+          Crafted with love, baked to perfection, and designed to create
+          unforgettable moments
+        </p>
+        <div class="hero-btns-container">
+          <a href="" class="primary-btn">Commander sur WhatsApp</a>
+          <a href="" class="secondary-btn">Découvrir nos créations</a>
+        </div>
+        <div class="hero-imgs-container">
+          <img
+            src="./images/gâteau-red-velvet.webp"
+            alt="Gâteau Red Velvet avec glaçage au fromage frais, texture moelleuse et présentation pâtisserie élégante"
+            class="hero-img-1"
+          />
+          <img
+            src="./images/gâteau-fraise-artisanal.webp"
+            alt="Gâteau aux fraises fraîches avec crème fouettée et génoise vanille, dessert pâtissier léger et gourmand"
+            class="hero-img-2"
+          />
+        </div>
+        <img
+          src="./images/gâteau-chocolat-premium.webp"
+          alt="Gâteau au chocolat premium avec glaçage au chocolat noir et décoration élégante, dessert de pâtisserie artisanale"
+          class="hero-img-3"
+        />
+      </section>
+
+      <section class="testimonials-section">
+        <h2>Our trusted clients</h2>
+        <p class="testimonials-section-desc">
+          Vous n’êtes pas seul·e. Plus de 100 clients venus de partout du Bénin
+          ont déjà commandés nos gâteaux. SweetDelice by Amina est un choix qui
+          rend vos moments de bonheur inoubliables.
+        </p>
+        <div class="testimonials-wrapper">
+          <div class="testimonials-track">
+            <!-- <div class="testimonials-cards-container">
+            
+            </div>
+            <div class="testimonials-cards-container">
+              <article class="testimonials-card">
+                <i class="fa-solid fa-quote-left testimonials-card-quote"></i>
+                <div class="testimonials-card-stars">
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                </div>
+                <p class="testimonials-card-text">
+                  Le gâteau d'anniversaire était magnifique et vraiment
+                  délicieux. Toute la famille a aimé. La livraison a été rapide
+                  et le service très professionnel.
+                </p>
+                <hr class="testimonials-card-separator" />
+                <div class="testimonials-client-container">
+                  <span>FA</span>
+                  <div>
+                    <p class="testimonials-client-name">Fatima</p>
+                    <p class="testimonials-client-work">Enseignante</p>
+                  </div>
+                </div>
+              </article>
+            </div> -->
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-section">
+        <h2>Offrez un gâteau unique pour votre prochain événement</h2>
+        <p>
+          Mariage, anniversaire, baptême ou surprise spéciale : nous réalisons
+          des créations personnalisées selon vos envies.
+        </p>
+        <div class="hero-btns-container">
+          <a href="" class="primary-btn">Commander sur WhatsApp</a>
+          <a href="" class="secondary-btn">Découvrir nos créations</a>
+        </div>
+      </section>
+    </main>
+
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
